@@ -6,7 +6,7 @@
 The data/\bridge engine (db-e) is based on the Qlik Deployment Framework.
 Please download and install it using the following link.
 
-https://community.qlik.com/groups/qlikview-deployment-framework
+[https://github.com/databridge-engine/Qlik-Deployment-Framework]
 
 To assure that that db-e is working with QDF following prerequisites are required:
 - Name QDF Container Folder e.g. 03.CRM, 04.SAP, 05.CallCenter
