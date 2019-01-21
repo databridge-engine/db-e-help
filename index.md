@@ -1,6 +1,32 @@
-## Welcome to GitHub Pages
+## Welcome to data/\bridge engine Help Page
 
-You can use the [editor on GitHub](https://github.com/databridge-engine/help/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Installation
+## Qlik Deplyoment Framework (QDF)
+
+The data/\bridge engine (db-e) is based on the Qlik Deployment Framework.
+Please download and install it using the following link.
+
+https://community.qlik.com/groups/qlikview-deployment-framework
+
+To assure that that db-e is working with QDF following prerequisites are required:
+- Name QDF Container Folder e.g. 03.CRM, 04.SAP, 05.CallCenter
+- Folder Connection setup in Qlik Management Console (QMC) need to have the same Name which are pointing to these QDF-Contaners
+- ETL Apps linked to the QDF Container need the same naming convention:
+    Container: 03.CRM:
+      03.CRM-10.Extract
+      03.CRM-11.Delta Transform
+      03.CRM-20.Transform
+      03.CRM-30.DataModel
+
+## data/\bridge engine (db-e) installation
+
+The db-e sctips (extract, transform, datamart, etc) have to store in the subfolder of each QDF Container: \3.Include\3.Custom
+
+### Server name Info
+On each Qlik Server a server into file has to be stored. This helps to identify the server where your are on, especially in a multi-node environment.
+
+- ServerInfo.txt to be stored in the QDF Root directory
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
