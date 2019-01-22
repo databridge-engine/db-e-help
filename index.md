@@ -39,7 +39,7 @@ This helps to identify the server where your are on, especially in a multi-node 
 - ServerInfo.txt to be stored in the QDF Root directory containing your Server Name
 ```
 
-### Operating manual ###
+# Operating manual #
 ## Extract ##
 [Data extraction](/extract.md)
 
