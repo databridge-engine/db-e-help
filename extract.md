@@ -1,11 +1,28 @@
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+### Extract entry list (required)
+
+| Status | Connection | Database | TableSQL | TableSave | TableSaveLocation | PrimaryKey | PrimaryKeyName | FullLoad | NoRecords |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 = Active 0 = Inactive  | Name of the Connection in QMC | Database Name | Table name in the database | Name of the QVD table to be saved | Folder Name where to QVD should be saved | definition of the primary key* | Name of the Primary Key** | 1 = Full Load 0 = Delta Load | No. of records to be loaded. Set to 999999999999 of all shall be loaded | 
+
+
+- *Qlik script syntax have to be used
+- **Recommended naming convention e.g. %Account_Key
+
+### Extract entry list (optional)
+
+| Filter | DeltaDateField | DeltaKey | DeltaType | 
+| --- | --- | --- | --- | 
+| filter criteria e.g. where Year=2017  | Date field to be used for delta load e.d. modified_date | Primary Key of the table | 2 = SCD Type 2, 1 = SCD Type 1** |
+
+
+- *database script syntax have to be used
+- **SCD Type 1 = .... SCD Type 2 = ......
+
+### Extract entry list (information only)
+
+| TableInfo | TableNoRowsFull | TableLoadingTime_Full |
+| --- | --- | --- | 
+| Descriptive information about the table  | Number of total rows of the table | Duration for a full load |
 
 
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
