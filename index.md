@@ -9,13 +9,13 @@ Please download and install it using the following link.
 [github Qlik Deployment Framework QDF](https://github.com/databridge-engine/Qlik-Deployment-Framework)
 
 To assure that that db-e is working with QDF following prerequisites are required:
-
-[ ] Name QDF Container Folder e.g. 03.CRM, 04.SAP, 05.CallCenter
-[ ] Folder Connection setup in Qlik Management Console (QMC) need to have the same Name 
-   which are pointing to these QDF-Containers
-[ ] ETL Apps linked to the QDF Container need the same naming convention:
-
 ```markdown  
+1. Name QDF Container Folder e.g. 03.CRM, 04.SAP, 05.CallCenter
+2. Folder Connection setup in Qlik Management Console (QMC) need to have the same Name 
+   which are pointing to these QDF-Containers
+3. ETL Apps linked to the QDF Container need the same naming convention:
+
+
     Container: 03.CRM ->
       03.CRM-10.Extract
       03.CRM-11.Delta merge
