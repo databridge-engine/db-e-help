@@ -11,7 +11,7 @@ The extract entry list is the main table where are all your extract definition a
 
 | Status | Connection | DatabaseType | Database | DatabaseSchema | TableSQL | TableSave | TableSaveLocation | PrimaryKey | PrimaryKeyName | FullLoad | NoRecords |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 = Active 0 = Inactive | Name of the Connection in QMC | MSSql ODBC XLS SAP SAPBW Oracle | Database Name | Table name in the database | Database schema e.g. MSSql = .dbo | Name of the QVD table to be saved | Folder Name where to QVD should be saved | definition of the primary key* | Name of the Primary Key** | 1 = Full Load 0 = Delta Load | No. of records to be loaded. Set to 999999999999 of all shall be loaded | 
+| 1 = Active 0 = Inactive | Name of the Connection in QMC | MSSql ODBC XLS SAP SAPBW Oracle | Database Name |  Database schema e.g. MSSql = .dbo | Table name in the database | Name of the QVD table to be saved | Folder Name where to QVD should be saved | definition of the primary key* | Name of the Primary Key** | 1 = Full Load 0 = Delta Load | No. of records to be loaded. Set to 999999999999 of all shall be loaded | 
 
 
 - *Qlik script syntax have to be used
