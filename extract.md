@@ -1,3 +1,12 @@
+[db-e help home](/index.md)
+
+# Operation manual
+
+## Extract
+
+The extract entry list is the main table where are all your extract definition are maintained. All other processes like transform, delta merge are referencing to this list. Only talbe which active (Status = 1) are beeing processed.
+
+
 ### Extract entry list (required)
 
 | Status | Connection | Database | TableSQL | TableSave | TableSaveLocation | PrimaryKey | PrimaryKeyName | FullLoad | NoRecords |
