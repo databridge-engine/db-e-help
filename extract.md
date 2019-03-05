@@ -1,4 +1,4 @@
-[db-e help home](/index.md)
+[home](/index.md)
 
 # Operation manual
 
@@ -34,4 +34,4 @@ The extract entry list is the main table where are all your extract definition a
 | Descriptive information about the table  | Number of total rows of the table | Duration for a full load |
 
 
-
+[back](/index.md)
