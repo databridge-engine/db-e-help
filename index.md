@@ -49,10 +49,12 @@ This helps to identify the server where your are on, especially in a multi-node 
 # Operating manual #
 ## Extract ##
 Extracting of Data and saving into Qlik QVD Files.
+
 [Data extraction](/extract.md)
 
 ## MetaData ##
 Defining each Data field. Deleting unwanted or not needed fields.
+
 [Meta Data](/metadata.md)
 
 ### Support or Contact
