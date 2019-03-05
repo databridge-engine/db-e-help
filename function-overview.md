@@ -1,3 +1,5 @@
+[Home](/index.md)
+
 # Operating manuel
 
 ## Function overview
@@ -37,5 +39,5 @@
 ## AppsDataModel
 - List of all Fact and Dimension QVDs generated during Datamodel creation
 
-## NAVIGATION
+
 [Back](/index.md)
